@@ -70,6 +70,8 @@ let g:airline_powerline_fonts = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
 
 let g:airline_powerline_fonts = 1
+let mapleader = ','
+nnoremap <leader>s :w<cr>
 
 
 " make test commands execute using dispatch.vim
