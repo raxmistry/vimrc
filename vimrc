@@ -54,12 +54,23 @@ Plug 'jadercorrea/elixir_generator.vim'
 " Status / Tab
 Plug 'bling/vim-airline'
 
+Plug 'ryanoasis/vim-devicons'
+
 " Initialize plugin system
 call plug#end()
 
 " Show linenumbers
 set number
 set ruler
+set encoding=utf8
+" set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Nerd\ Font\ Complete\ 12
+set guifont=Knack\ Regular\ Nerd\ Font\ Complete\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
+let g:airline_powerline_fonts = 1
+" set guifont=Inconsolata\ for\ Powerline:h15
+let g:WebDevIconsNerdTreeAfterGlyphPadding = ''
+
+let g:airline_powerline_fonts = 1
+
 
 " make test commands execute using dispatch.vim
 " let test#strategy = "dispatch"
