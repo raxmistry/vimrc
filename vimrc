@@ -56,6 +56,9 @@ Plug 'bling/vim-airline'
 
 Plug 'ryanoasis/vim-devicons'
 
+" Vim colors
+Plug 'yuttie/hydrangea-vim'
+
 " Initialize plugin system
 call plug#end()
 
@@ -77,4 +80,7 @@ nnoremap <leader>s :w<cr>
 " make test commands execute using dispatch.vim
 " let test#strategy = "dispatch"
 let test#strategy = "vtr"
+
+colorscheme hydrangea
+
 
