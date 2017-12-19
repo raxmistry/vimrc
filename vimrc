@@ -50,6 +50,9 @@ Plug 'frost/vim-eh-docs'
 Plug 'slashmili/alchemist.vim'
 Plug 'tpope/vim-endwise'
 Plug 'jadercorrea/elixir_generator.vim'
+ 
+" Elm
+Plug 'elmcast/elm-vim'
 
 " Status / Tab
 Plug 'bling/vim-airline'
