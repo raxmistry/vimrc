@@ -50,6 +50,7 @@ Plug 'frost/vim-eh-docs'
 Plug 'slashmili/alchemist.vim'
 Plug 'tpope/vim-endwise'
 Plug 'jadercorrea/elixir_generator.vim'
+Plug 'mhinz/vim-mix-format'
  
 " Elm
 Plug 'elmcast/elm-vim'
@@ -86,4 +87,5 @@ let test#strategy = "vtr"
 
 colorscheme hydrangea
 
+let g:elm_format_autosave = 1
 
