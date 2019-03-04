@@ -34,6 +34,10 @@ Plug 'maksimr/vim-jsbeautify'
 Plug 'vim-syntastic/syntastic'
 Plug 'neomake/neomake'
 Plug 'tpope/vim-fugitive'
+" Javascript
+Plug 'pangloss/vim-javascript'
+"React
+Plug 'mxw/vim-jsx'
 
 " Erlang Support
 Plug 'vim-erlang/vim-erlang-tags'
@@ -80,6 +84,10 @@ set clipboard=unnamed
 set number
 set ruler
 set encoding=utf8
+
+"Set tab to be 4 space chars
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+
 " set guifont=Droid\ Sans\ Mono\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 set guifont=Knack\ Regular\ Nerd\ Font\ Complete\ for\ Powerline\ Plus\ Nerd\ File\ Types:h11
 let g:airline_powerline_fonts = 1
