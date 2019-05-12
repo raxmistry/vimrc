@@ -61,6 +61,13 @@ Plug 'jadercorrea/elixir_generator.vim'
 " Elm support
 Plug 'elmcast/elm-vim'
 
+" Vuejs
+Plug 'posva/vim-vue'
+
+" Go-lang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
+
 " Status / Tab
 Plug 'bling/vim-airline'
 
