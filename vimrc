@@ -57,6 +57,7 @@ Plug 'frost/vim-eh-docs'
 Plug 'slashmili/alchemist.vim'
 Plug 'tpope/vim-endwise'
 Plug 'jadercorrea/elixir_generator.vim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
  
 " Elm support
 Plug 'elmcast/elm-vim'
