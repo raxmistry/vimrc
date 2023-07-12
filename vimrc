@@ -26,7 +26,6 @@ Plug 'wincent/command-t'
 " Generic Programming Support 
 Plug 'jakedouglas/exuberant-ctags'
 Plug 'honza/vim-snippets'
-Plug 'Townk/vim-autoclose'
 Plug 'tomtom/tcomment_vim'
 Plug 'tobyS/vmustache'
 Plug 'janko-m/vim-test'
